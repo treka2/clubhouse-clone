@@ -1,0 +1,72 @@
+.BottomSheetContainer {
+  background-color: #fff;
+  border-radius: 1.5em 1.5em 0 0;
+  padding: 1.5em 1em;
+  position: relative;
+  height: 100%;
+}
+.BottomSheetContainer button {
+  border: none;
+}
+.switch_line {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 35px;
+  background-color: #ccc;
+}
+
+.addTobicBtn {
+  background-color: transparent;
+  color: #28ae61;
+}
+.addTobicBtn:hover {
+  background-color: lightcyan;
+}
+.selectRoom {
+  border-bottom: 1px olid #ccc;
+  padding: 1.5em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.selectRoom button {
+  background-color: transparent;
+  border-radius: 1em;
+  padding: 0.5em 1.3em 0.2em;
+  color: var(--text-clr);
+  line-height: 1.2;
+}
+.selectRoom button.active {
+  border: 1px solid lightseagreen;
+  background-color: lightblue;
+}
+.selectRoom button div {
+  background-color: lightseagreen;
+  border-radius: 1.5em;
+}
+.selectRoom button svg {
+  font-size: 4em;
+  color: rgb(7, 136, 57);
+}
+.BottomSheetContainer p {
+  font-size: 1em;
+  color: var(--text-clr);
+  text-align: center;
+  font-weight: 500;
+}
+.letGoBtn {
+  font-size: 1.3em;
+  font-weight: 500;
+  border-radius: 2em;
+  color: #fff;
+  background-color: #28ae61;
+  padding: 0.3em 2em;
+  text-align: center;
+  transition: 250ms;
+}
+.letGoBtn:hover {
+  transform: scale(1.1);
+}

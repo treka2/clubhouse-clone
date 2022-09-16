@@ -1,0 +1,34 @@
+.upcomingContainer {
+  background-color: #e7e4d5;
+  padding: 1rem 0.2rem 4rem;
+  height: 100%;
+  position: relative;
+  overflow: auto;
+}
+.upcomingContainer h4 {
+  color: var(--text-clr);
+}
+.upcomingCard {
+  position: relative;
+  background-color: #fff;
+  padding: 0.5rem 0.4rem;
+  border-radius: 1rem 1rem 0.7rem 0.7rem;
+  margin: 0.2rem auto;
+}
+.upcomingCard span {
+  color: #ddd;
+}
+.upcomingCard_img {
+  width: 40px;
+  border-radius: 2.2em;
+}
+.upcomingCard p {
+  font-size: 0.8rem;
+  margin: 0.3rem 0;
+  font-weight: 500;
+}
+.alarmIcon {
+  position: absolute;
+  right: 0.4rem;
+  top: 0.5rem;
+}

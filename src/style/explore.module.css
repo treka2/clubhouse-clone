@@ -1,0 +1,96 @@
+.exploreContainer {
+  padding: 5.2em 0.5em 0;
+  height: 100%;
+  overflow: auto;
+}
+.exploreContainer h6 {
+  font-size: 0.975em;
+  font-weight: 500;
+  margin: 1.5em 0 0.5em 0;
+}
+.peopleContainer {
+  background-color: #fff;
+  position: relative;
+  margin: 0 -0.5em;
+  padding: 0.5em 0.5em 1.5em;
+}
+.peopleContainer > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+.peopleContainer h5 {
+  color: var(--text-clr);
+  font-size: 1.1em;
+  margin-bottom: 0.2em;
+}
+.peopleContainer p {
+  color: var(--text-clr);
+  font-size: 0.9em;
+  margin: 0;
+  display: block;
+  display: -webkit-box;
+  width: 173px;
+  height: fit-content;
+  line-height: 1.15;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #aaa;
+}
+.peopleContainer > div > button {
+  background-color: transparent;
+  border: 1px solid var(--btn-bg-clr);
+  color: var(--btn-bg-clr);
+  padding: 0.1em 1.2em;
+  border-radius: 2em;
+  font-weight: 400;
+  font-size: 1em;
+}
+.peopleContainer img {
+  width: 40px;
+  border-radius: 1.1em;
+}
+.showMore {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f4f4f4 !important;
+  border: none;
+  color: #aaa;
+  box-shadow: 0px 2px 3px #ccc;
+  font-weight: 500;
+}
+.conversationCard {
+  background-color: #fff;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  box-shadow: 0px 2px 3px #ccc;
+}
+.conversationCard h6 {
+  color: var(--text-clr);
+  font-size: 1em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.conversationCard p {
+  margin: 0;
+  color: #aaa;
+  line-height: 1.2;
+  font-size: 0.8em;
+}
+.head {
+  position: relative;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
